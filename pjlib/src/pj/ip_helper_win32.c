@@ -30,11 +30,16 @@
 #endif
 #include <winsock2.h>
 
+
 /* If you encounter error "Cannot open include file: 'Iphlpapi.h' here,
  * you need to install newer Platform SDK. Presumably you're using
  * Microsoft Visual Studio 6?
  */
-#include <Iphlpapi.h>
+// #include <Iphlpapi.h>
+#include <ipmib.h>
+#include <Iptypes.h>
+
+
 
 #include <pj/ip_helper.h>
 #include <pj/assert.h>
@@ -438,4 +443,3 @@ PJ_DEF(pj_status_t) pj_enum_ip_route(unsigned *p_cnt,
 
     return PJ_SUCCESS;
 }
-

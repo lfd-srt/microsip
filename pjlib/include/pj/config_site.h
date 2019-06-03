@@ -1,0 +1,4 @@
+
+#define PJSUA_HAS_VIDEO 0
+#define PJSIP_HAS_TLS_TRANSPORT 1
+
