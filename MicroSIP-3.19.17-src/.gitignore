@@ -1,0 +1,5 @@
+Debug
+Release
+*.obj
+*.VC.db
+*.VC.VC.opendb
